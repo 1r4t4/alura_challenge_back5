@@ -10,6 +10,20 @@ class VideosController {
         } 
     }
 
+    static async pegaVideoPeloTitulo(req, res) {
+      const { titulo } = req.query
+      try {
+        const videoDoTitulo = await database.Videos.findAll( { 
+          where: { 
+            titulo: String(titulo) 
+          }
+        })
+        return res.status(200).json(videoDoTitulo)
+      } catch (error) {
+        return res.status(500).json(error.message)
+      }
+    }
+
     static async pegaUmVideo(req, res) {
         const { id } = req.params
         try {

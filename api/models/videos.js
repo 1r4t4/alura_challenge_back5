@@ -22,7 +22,7 @@ module.exports = (sequelize, DataTypes) => {
       }
     }
   },
-
+  
   url:{
     type: DataTypes.STRING,
     validate: {
@@ -30,11 +30,18 @@ module.exports = (sequelize, DataTypes) => {
           if (dado.length > 30 ) throw new Error ('limite máximo de caracteres excedido: 30')
         }     
       }
-    }
+    },
+
+  categorias:{
+    type: DataTypes.INTEGER,
+    isNumeric: true,
+    },
 
   }, {});
   Videos.associate = function(models) {
-    // associations can be defined here
+    Videos.belongsTo(models.Categorias, {
+      foreignKey: 'Id'
+    })
   };
   return Videos;
 };
