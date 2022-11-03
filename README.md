@@ -34,3 +34,15 @@ _apagar um vídeo
 Deixar os campos de preenchimento obrigatórios e validar tais campos;
 
 Verificar os status code das rotas através do PostMan; 
+
+### Semana 2:
+
+Permitir que os vídeos sejam agrupados em categorias;
+
+Realizar o CRUD com as novas rotas para categorias;
+
+Criar rota que reúna todos os vídeos de uma mesma categoria;
+
+Criar rota com pesquisa específica a partir do "título" dos vídeos;
+
+Escrever testes unitários e testes de integração;
