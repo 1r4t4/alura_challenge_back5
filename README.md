@@ -11,7 +11,7 @@ Este projeto faz parte do Challenge Back-End desenvolvido pela plataforma Online
 
 ### Meu projeto!
 
-A partir dos cursos da Alura que realizei de criação de APIs Rest com Express utilizarei os modelos, as aulas e as documentações citadas para tentar atingir o objetivo final. Meu código será escrito em *Node.JS* e o banco de dados que utilizarei será o *MySQL*.
+A partir dos cursos da Alura que realizei de criação de APIs Rest com Express utilizarei os modelos, as aulas e as documentações citadas para tentar atingir o objetivo final. Meu código será escrito em *Node.JS* e o banco de dados que utilizarei será o *MySQL*. Para acessar o código do projeto, vejam a branch "master" .
 
 ![node_js](https://user-images.githubusercontent.com/110872919/197925121-6c4b5e18-6ade-4b8c-9928-f9e3b24fe49b.png)
 
